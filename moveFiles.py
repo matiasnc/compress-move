@@ -16,7 +16,7 @@ if __name__ == "__main__":
                 if any(delete == f for f in ['YES', 'yes', 'Y', 'y']):
                     os.remove(downloadsFolder + filename)
                     print(name + ": " + extension  + '. Se elimina archivo original.')
-                elif any(delete == f for f in ['NO', 'no', 'N', 'y=n']):
+                elif any(delete == f for f in ['NO', 'no', 'N', 'n']):
                     print(name + ": " + extension + '. Se conserva archivo original.')
                 else:
                     print('El comando ingresado no es valido.') #Iterar a pregunta
