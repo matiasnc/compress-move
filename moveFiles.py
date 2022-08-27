@@ -5,7 +5,7 @@ downloadsFolder = "/Users/Matias/Downloads/"
 picturesFolder = "/Users/Matias/Pictures/"
 
 if __name__ == "__main__":
-    while True:
+    #while True:
         delete = input('¿Eliminar archivos originales? [Y/N]')
         for filename in os.listdir(downloadsFolder):
             name, extension = os.path.splitext(downloadsFolder + filename)
@@ -21,6 +21,9 @@ if __name__ == "__main__":
                 else:
                     print('El comando ingresado no es valido.') #Iterar a pregunta
                     break
+            else:
+                print('No se encuentra archivos con el formato buscado.')
+                break
 
         # Se puede aplicar con otros tipos de archivos, por ejemplo para .mp3
         # if extension in [".mp3"]:
