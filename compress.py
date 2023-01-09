@@ -1,3 +1,13 @@
+"""
+Descripcion del script:
+Compresor de imagenes para ganar espacio de almacenamiento.
+"""
+
+__author__ = "Matias Nahuel Calderon"
+__version__ = "1.0"
+__email__ = "mn.calderon97@gmail.com"
+__status__ = ""
+
 from email.mime import image
 from PIL import Image # python3 -m pip install Pillow
 

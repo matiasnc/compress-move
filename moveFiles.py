@@ -1,3 +1,13 @@
+"""
+Descripcion del script:
+Comprime archivos de un tipo especificado y pregunta si se desea conservar los archivos originales.
+"""
+
+__author__ = "Matias Nahuel Calderon"
+__version__ = "1.0"
+__email__ = "mn.calderon97@gmail.com"
+__status__ = ""
+
 from PIL import Image
 import os
 
